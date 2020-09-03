@@ -7,3 +7,5 @@
  - 2 Sentiment Analysis
       - Dataset: Pulling tweets directly from Twitter using their API.
       - Approach: Clean up the tweet text & use a labeled dataset (from Kaggle.com) to perform sentiment analysis, identifying which tweets have a positve or negative sentiment related to COVID-19. Then create a clout score for each tweet and plot on a map of the U.S. using the Twitter user's location.
+      
+### If for some reason you cannot view a .ipynb file, please be patient and try reloading. There seems to be an issue viewing this filetype on GitHub sometimes.
