@@ -20,5 +20,8 @@
      - **Dataset**: From https://www.kaggle.com/jsrojas/ip-network-traffic-flows-labeled-with-87-apps
      - **Approach**: Use netflow data to cluster nodes by daily aggregates. Visualize network structure with NetworkX package, and highlight the nodes by clusters. Identify nodes that would be prioritized for security hardening and remediation. 
       
-      
+- 5 MULTI LABEL CLINICAL NOTE CLASSIFICATION USING BIO CLINICALBERT
+     - **Dataset**: From https://www.kaggle.com/c/medical-notes/overview
+     - **Approach**: Developed a deep learning model using Bio\_ClinicalBERT to perform multi-label classification of insomnia episodes and contextual durations in clinical notes, achieving 93.5\% accuracy. Compared weak supervision, manual annotation, and LLM-generated labels to build a robust training set. Addressed class imbalance using Binary Cross-Entropy loss and validated performance with F1-micro and F1-macro metrics. Leveraged Google Colab GPUs to accelerate model training, and exported the fine-tuned model to evaluate on unseen clinical notes.
+ 
 ### If for some reason you cannot view a .ipynb file, please be patient and try reloading. There seems to be an issue viewing this filetype on GitHub sometimes.
