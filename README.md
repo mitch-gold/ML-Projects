@@ -42,7 +42,23 @@
     
     - **Outcomes**:  
       - Produced actionable recommendations from a medical affairs perspective to support patient care and decision-making.
+    
+- 7 AI-Powered Resume Review Chatbot
 
+  - **Project Overview**: Designed and developed a Flask-based AI chatbot to assist hiring managers with resume reviews and candidate insights.
+
+  - **Tech Stack & Features**:  
+    - Built using LangChain, OpenAI API, and transformer models.  
+    - Integrated a vector database (Chroma) and embedding techniques for semantic similarity search and retrieval-augmented generation (RAG).  
+    - Engineered conversation summarization using a T5-small model to efficiently manage long dialogues.  
+    - Optimized token usage and memory management to improve response accuracy and performance within model limitations.
+
+  - **DevOps & CI/CD**:  
+    - Set up GitHub Actions for continuous integration (CI), automating testing and quality checks on pull requests.  
+    - Enabled faster development cycles and more reliable deployments.
+
+  - **Repository**:  
+    - [https://github.com/mitch-gold/MARA](https://github.com/mitch-gold/MARA)
 ---
  
 ### If for some reason you cannot view a .ipynb file, please be patient and try reloading. There seems to be an issue viewing this filetype on GitHub sometimes.
