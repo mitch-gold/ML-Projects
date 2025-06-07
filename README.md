@@ -23,5 +23,26 @@
 - 5 MULTI LABEL CLINICAL NOTE CLASSIFICATION USING BIO CLINICALBERT
      - **Dataset**: From https://www.kaggle.com/c/medical-notes/overview
      - **Approach**: Developed a deep learning model using Bio\_ClinicalBERT to perform multi-label classification of insomnia episodes and contextual durations in clinical notes, achieving 93.5\% accuracy. Compared weak supervision, manual annotation, and LLM-generated labels to build a robust training set. Addressed class imbalance using Binary Cross-Entropy loss and validated performance with F1-micro and F1-macro metrics. Leveraged Google Colab GPUs to accelerate model training, and exported the fine-tuned model to evaluate on unseen clinical notes.
+
+- 6 Schizophrenia (SCZ) Relapse Prediction Case Study
+    - **Summary**: This case study highlights a comprehensive approach combining data cleaning, predictive modeling, clinical statistics, and healthcare domain expertise.
+    
+    - **Dataset**: CMS 2008-2010 Data Entrepreneurs’ Synthetic Public Use File (DE-SynPUF) (dataset with patient encounters, medications, diagnoses, and other clinical records).
+    
+    - **Data Preparation**:  
+      - Cleaned data to identify schizophrenia (SCZ) patients using diagnoses, medications, and encounter records.
+    
+    - **Modeling Approach**:  
+      - Developed multiple machine learning models to predict SCZ relapse events.  
+      - Achieved a best model accuracy of **79%**.  
+      - Intentionally left the age feature unbalanced to demonstrate differences in interpretability between ML and traditional statistical methods.
+    
+    - **Statistical Analysis**:  
+      - Applied Kaplan-Meier survival curves and Cox proportional hazards models to find meaningful correlations between relapse events and clinical features.
+    
+    - **Outcomes**:  
+      - Produced actionable recommendations from a medical affairs perspective to support patient care and decision-making.
+
+---
  
 ### If for some reason you cannot view a .ipynb file, please be patient and try reloading. There seems to be an issue viewing this filetype on GitHub sometimes.
